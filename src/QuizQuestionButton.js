@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 class QuizQuestionButton extends Component {
-    state = {}
+    constructor(props) {
+        super(props);
+    }
     render() {
         return (
             <div>
